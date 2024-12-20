@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\PRATYUSH\AspAssignment2 PRATYUSH\ServiceBank\bin\Debug\ServiceBank.dll
+C:\Users\Administrator\Desktop\PRATYUSH\AspAssignment2 PRATYUSH\ServiceBank\bin\Debug\ServiceBank.pdb
+C:\Users\Administrator\Desktop\PRATYUSH\AspAssignment2 PRATYUSH\ServiceBank\bin\Debug\Bank1.dll
+C:\Users\Administrator\Desktop\PRATYUSH\AspAssignment2 PRATYUSH\ServiceBank\bin\Debug\Bank1.pdb
+C:\Users\Administrator\Desktop\PRATYUSH\AspAssignment2 PRATYUSH\ServiceBank\obj\Debug\ServiceBank.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\PRATYUSH\AspAssignment2 PRATYUSH\ServiceBank\obj\Debug\ServiceBank.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\PRATYUSH\AspAssignment2 PRATYUSH\ServiceBank\obj\Debug\ServiceBank.csproj.CopyComplete
+C:\Users\Administrator\Desktop\PRATYUSH\AspAssignment2 PRATYUSH\ServiceBank\obj\Debug\ServiceBank.dll
+C:\Users\Administrator\Desktop\PRATYUSH\AspAssignment2 PRATYUSH\ServiceBank\obj\Debug\ServiceBank.pdb

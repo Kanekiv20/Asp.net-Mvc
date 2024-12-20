@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\PRATYUSH\AspAssignment2 PRATYUSH\Bank1\bin\Debug\Bank1.dll
+C:\Users\Administrator\Desktop\PRATYUSH\AspAssignment2 PRATYUSH\Bank1\bin\Debug\Bank1.pdb
+C:\Users\Administrator\Desktop\PRATYUSH\AspAssignment2 PRATYUSH\Bank1\obj\Debug\Bank1.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\PRATYUSH\AspAssignment2 PRATYUSH\Bank1\obj\Debug\Bank1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\PRATYUSH\AspAssignment2 PRATYUSH\Bank1\obj\Debug\Bank1.dll
+C:\Users\Administrator\Desktop\PRATYUSH\AspAssignment2 PRATYUSH\Bank1\obj\Debug\Bank1.pdb

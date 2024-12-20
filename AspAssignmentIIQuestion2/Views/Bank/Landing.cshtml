@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Landing";
+}
+
+<h2>Landing</h2>
+<div class="alert alert-info">
+    @Session["username"]
+</div>
+@if (TempData["message"] != null)
+{
+    <div class="alert alert-info">
+        @TempData["message"]
+    </div>
+}
+
+<br>
+<br>
+@Html.ActionLink("Show Balence", "Balance", "Bank", new { @class = "btn btn-primary" })
+<br>
+<br>
+@Html.ActionLink("Transfer Money", "Transfer", "Bank", new { @class = "btn btn-primary" })
+<br>
+<br>
+ @Html.ActionLink("Logout", "Logout", "Bank", new { @class = "btn btn-primary" })

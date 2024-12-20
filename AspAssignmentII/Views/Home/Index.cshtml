@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+@{
+    ViewBag.Title = "User";
+}
+
+<h2>Index</h2>
+@{
+    ViewBag.Title = "Home Page";
+}
+@if (TempData["message"] != null)
+{
+    <div class="alert alert-info">
+        @TempData["message"]
+    </div>
+}
+
+<br>
+<form method="post" action="@Url.Action("SearchMethod")" class="form-inline d-flex">
+    <input type="text" name="searchItem" class="form-control mb-3" placeholder=".....Search..." />
+    <button type="submit" class="btn btn-dark mb-3">Search</button>
+</form>
+
+@if (TempData.Count > 1)
+{
+    <h4>
+        Id:@TempData["id"]<br>
+        Username:@TempData["username"]<br>
+        Name:@TempData["name"]<br>
+        gender:@TempData["gender"]<br>
+        Address:@TempData["address"]<br>
+    </h4>
+}
+
+<div class="col-6">
+    <form method="post" action="@Url.Action("SearchMethod", "Home")" id="dropdownForm">
+        <select class="btn btn-outline-dark dropdown-toggle" name="searchItem" onchange="this.form.submit()">
+            <option value="">Select User</option>
+            @if (ViewBag.User != null)
+            {
+                foreach (var item in ViewBag.User as SelectList)
+                {
+                    <option value="@item.Value">
+                        @Html.DisplayFor(modelItem => item.Text)
+                    </option>
+
+                }
+            }
+            else
+            {
+                <option disabled>No users available</option>
+
+            }
+        </select>
+    </form>
+</div>
+<br>
+<br>
+@Html.ActionLink("Insert", "InsertMethod", null, new { @class = "btn btn-primary" })
+<h2>ViewBag Values</h2>
+<ul>
+    @foreach (var item in ViewBag.User)
+    {
+<li><strong>@item.Value:</strong> @item.Text</li>}
+</ul>

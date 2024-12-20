@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Welcome";
+}
+
+<h2>Welcome</h2>
+
+@if (TempData["message"] != null)
+{
+    <div class="alert alert-info">
+        @TempData["message"]
+    </div>
+}
+<br>
+<br>
+<br>
+@Html.ActionLink("Signup", "Signup","Bank", new { @class = "btn btn-primary" })
+<br >
+<br>
+<br>
+@Html.ActionLink("Login", "Login", "Bank", new { @class = "btn btn-primary" })
